@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Checkout from "./Checkout";
 
 function App() {
+  document.title = "Amazon clone";
   return (
     <Router>
       <div className="App">
